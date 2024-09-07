@@ -1,5 +1,6 @@
 import React from "react";
 import ProfileForm from "../../../../components/forms/profile-form";
+import { ProfilePicture } from "./_components/profile-picture";
 
 type Props = {};
 
@@ -14,6 +15,7 @@ const Settings = (props: Props) => {
         <h1 className="text-2xl font-bold">User Profile</h1>
         <p className="text-base text-white/50">Add or update your information</p>
       </div>
+      <ProfilePicture />
       <ProfileForm />
     </div>
   </div>
